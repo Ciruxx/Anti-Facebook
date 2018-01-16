@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<title>AntiFace</title>
+	</head>
+	<style>
+.enableButton {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 140px;
+}
+.disableButton {
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 140px;
+}
+	</style>
+	<body bgcolor="#3A5896">
+		<a href="settings.html">
+			<img src="settings.png" alt="Settings" width="20" height="20" align="right">
+		</a>
+		<br>
+		<h1 style="color:white;text-align:center;"><b>Anti Facebook</b></h1>
+		<button id="enableButton" class="enableButton">Enable</button>
+		<button id="disableButton" class="disableButton">Disable</button>
+		<br>
+		<p style="color:white;text-align:center;"><b>Status: <span id="status" style="color:#f44336;"><b>OFF</b></span></b></p>
+
+		<script src="popup.js"></script>
+	</body>
+</html>
